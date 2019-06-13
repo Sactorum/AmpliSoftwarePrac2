@@ -18,4 +18,4 @@ Els mètodes `setBroken` i `repair`és idéntic que els mètodes en la classe Ma
  - Cert, si no hi ha cap maquina averiada i l'estat d'aquesta no ho està.  
  - Fals, si existeix una màquina averiada ja sigui aquesta o qualsevol de les components. 
 
-Ja que estem implementant la interfície _Observator_ cal implentar el métode `update`. Aquest mètode serveix de disparador en cas d'existir un canvi en les seves components. El tractament d'aquest event consisteix en incrementar o decrementar si una subcomponent s'averia o no i posteriorment es notifica dels canvis. 
+Ja que estem implementant la interfície _Observer_ cal implentar el métode `update`. Aquest mètode serveix de disparador en cas d'existir un canvi en les seves components. El tractament d'aquest event consisteix en incrementar o decrementar si una subcomponent s'averia o no i posteriorment es notifica dels canvis. 

@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2fc66be7-f8ec-484b-a23d-31bc395e6675" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pràctica_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pràctica_2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Machines/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machines/Machine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pràctica_2/Machines/MachineComposite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pràctica_2/Machines/MachineComposite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pràctica_2/Tests/MachineCompositeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pràctica_2/Tests/MachineCompositeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Machines/MachineComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machines/MachineComposite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests/MachineCompositeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/MachineCompositeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/MachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/MachineTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests/MachineCompositeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="132">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Machines/Machine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="162">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#442#443#0" expanded="true" />
                 <element signature="e#471#472#0" expanded="true" />
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Machines/MachineComposite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-330">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -81,12 +80,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/Machines/MachineComposite.java" />
         <option value="$PROJECT_DIR$/src/Machines/MachineTest.java" />
         <option value="$PROJECT_DIR$/src/Machines/Machine.java" />
         <option value="$PROJECT_DIR$/src/Tests/MachineTest.java" />
         <option value="$PROJECT_DIR$/src/Tests/MachineCompositeTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Machines/MachineComposite.java" />
       </list>
     </option>
   </component>
@@ -138,7 +137,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560469014629" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560470033586" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -228,34 +227,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MachineTest - 2019.06.14 at 01h 20m 51s.xml">
-      <configuration name="MachineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MachineTest - 2019.06.14 at 01h 25m 27s.xml">
-      <configuration name="MachineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MachineTest - 2019.06.14 at 01h 25m 30s.xml">
-      <configuration name="MachineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MachineTest - 2019.06.14 at 01h 26m 35s.xml">
-      <configuration name="MachineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MachineTest - 2019.06.14 at 01h 30m 48s.xml">
-      <configuration name="MachineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MachineTest - 2019.06.14 at 01h 32m 50s.xml">
-      <configuration name="MachineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 33m 00s.xml">
-      <configuration name="MachineCompositeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 33m 13s.xml">
-      <configuration name="MachineCompositeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 33m 43s.xml">
       <configuration name="MachineCompositeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 34m 16s.xml">
+      <configuration name="MachineCompositeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 36m 58s.xml">
+      <configuration name="MachineCompositeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 45m 11s.xml">
+      <configuration name="MachineCompositeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 45m 34s.xml">
+      <configuration name="MachineCompositeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 46m 44s.xml">
+      <configuration name="MachineCompositeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 47m 27s.xml">
+      <configuration name="MachineCompositeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 48m 48s.xml">
+      <configuration name="MachineCompositeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 52m 01s.xml">
+      <configuration name="MachineCompositeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineCompositeTest - 2019.06.14 at 01h 52m 45s.xml">
       <configuration name="MachineCompositeTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -296,17 +295,25 @@
       <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tests/MachineCompositeTest.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tests/MachineCompositeTest.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Machines/MachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -333,21 +340,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Machines/MachineComposite.java">
+    <entry file="file://$PROJECT_DIR$/src/Tests/MachineCompositeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="132">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Machines/Machine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="162">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#442#443#0" expanded="true" />
             <element signature="e#471#472#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -362,13 +382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/MachineCompositeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Machines/MachineComposite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
         </state>
       </provider>
     </entry>

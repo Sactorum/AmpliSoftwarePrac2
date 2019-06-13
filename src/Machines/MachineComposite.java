@@ -50,7 +50,7 @@ public class MachineComposite extends MachineComponent implements Observer {
 
     @Override
     public void update(Observable observable, Object o) {
-        MachineComponent mc = (MachineComponent) o;
+        MachineComponent mc = (MachineComponent) observable;
         if(mc.isBroken())
             brokenItems += 1;
         else

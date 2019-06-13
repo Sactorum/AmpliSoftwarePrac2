@@ -26,6 +26,7 @@ class MachineCompositeTest {
         mc.addComponent(mac1);
         assertFalse(mc.isBroken());
         mac2.setBroken();
+        mc.addComponent(mac2);
         assertTrue(mc.isBroken());
     }
 
@@ -49,6 +50,8 @@ class MachineCompositeTest {
     @Test
     void isBroken() {
         mc.addComponent(mac1);
+        assertFalse(mc.isBroken());
+        mc.addComponent(mac2);
         mac2.setBroken();
         assertTrue(mc.isBroken());
         mac2.repair();
