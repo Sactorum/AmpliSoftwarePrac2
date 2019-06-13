@@ -9,6 +9,8 @@ public class MachineComposite extends MachineComponent implements Observer {
     private List<MachineComponent> components = new ArrayList();
     private int brokenItems = 0;
 
+    public MachineComposite () {}
+
     public void addComponent(MachineComponent mc){
         components.add(mc);
         mc.addObserver(this);
