@@ -6,7 +6,7 @@ Ja que el que es vol, és que les capes externes (presentació) puguin ser assab
 
 ## Apartat B:
 Per poder realitzar la implementació del apartat A, s'ha declarat _abstract_ els mètodes 'setBroken' i 'repair' de la classe MachineComposite. <br/>
-La implementació d'aquests mètodes són molt semblants. El que s'ha fet és comprovar si l'estat previ és el mateix que l'estat que esdevindrà. Si es canvia, cridarà el mètode 'notifyChange' que notificarà als observadors aquest canvi.
+La implementació d'aquests mètodes són molt semblants. El que s'ha fet és comprovar si l'estat previ és el mateix que l'estat que esdevindrà. Si es canvia, cridarà el mètode 'notifyChange' que notificarà als observadors aquest canvi. Altrament, no es realitzarà cap canvi ni acció.
 
 ## Apartat C: 
 La classe MachineComposite implementa la classe _Observer_ . Aquesta classe ens permet observar els canvis de les subcomponents de la màquina. La classe MachineComposite té dos atributs, una llista de màquines i un comptador de màquines avariades. <br/>
