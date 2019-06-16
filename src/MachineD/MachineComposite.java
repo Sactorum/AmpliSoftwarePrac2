@@ -1,6 +1,11 @@
-package Machines;
+package MachineD;
 
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Observable;
+import java.util.Observer;
+import java.util.Optional;
 
 public class MachineComposite extends MachineComponent implements Observer {
     private List<MachineComponent> components = new ArrayList();
@@ -25,24 +30,6 @@ public class MachineComposite extends MachineComponent implements Observer {
     }
 
     @Override
-    public void setBroken() {
-        if (!broken){
-            broken = true;
-            notifyChange();
-        }
-        else broken = true;
-    }
-
-    @Override
-    public void repair() {
-        if (broken){
-            broken = false;
-            notifyChange();
-        }
-        else broken = false;
-    }
-
-    @Override
     public boolean isBroken() {
         return  broken || brokenItems > 0;
     }
@@ -55,11 +42,5 @@ public class MachineComposite extends MachineComponent implements Observer {
         else
             brokenItems -= 1;
         if (!isBroken()) notifyChange();
-    }
-
-    private void notifyChange(){
-        setChanged();
-        notifyObservers();
-
     }
 }

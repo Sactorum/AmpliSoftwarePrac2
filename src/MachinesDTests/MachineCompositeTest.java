@@ -1,12 +1,11 @@
-package Tests;
-import Machines.Machine;
-import Machines.MachineComposite;
-import org.junit.jupiter.api.BeforeAll;
+package MachinesDTests;
+
+import MachineD.Machine;
+import MachineD.MachineComposite;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 class MachineCompositeTest {
 
@@ -28,6 +27,7 @@ class MachineCompositeTest {
         mac2.setBroken();
         mc.addComponent(mac2);
         assertTrue(mc.isBroken());
+        assertThrows(NullPointerException.class,()-> mc.addComponent(null));
     }
 
     @Test
