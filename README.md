@@ -1,4 +1,4 @@
-# Pràctica d'apliació d'Enginyeria del Programari 2
+# Pràctica d'ampliació d'Enginyeria del Programari 2
 
 ## Apartat A:
 Amb aquesta descripció, nosaltres deduïm que el patró a utilitzar és el patró Observador. Les classes de la capa de domini no poden dependre de les classes que estiguin a la capa presentació. <br/>
