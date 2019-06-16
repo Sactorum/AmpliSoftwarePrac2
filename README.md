@@ -22,7 +22,7 @@ Ja que estem implementant la interfície _Observer_ cal implementar el mètode '
 
 ## Apartat D: 
 Per evitar duplicitat de codi, s'ha realitzat la implementació dels mètodes `setBroken` i `repair` en la classe abstracta. 
-Aquestes millores estàn en els següents arxiud de codi font:
+Aquestes millores estàn en els següents arxius de codi font:
  - [MachineComponent](https://github.com/Sactorum/AmpliSoftwarePrac2/blob/master/src/MachineD/MachineComponent.java)
  - [Machine](https://github.com/Sactorum/AmpliSoftwarePrac2/blob/master/src/MachineD/Machine.java)
  - [MachineComposite](https://github.com/Sactorum/AmpliSoftwarePrac2/blob/master/src/MachineD/MachineComponent.java)
