@@ -21,4 +21,8 @@ Els mètodes 'setBroken' i 'repair' és idèntic que els mètodes en la classe M
 Ja que estem implementant la interfície _Observer_ cal implementar el mètode 'update'. Aquest mètode serveix de disparador en cas d'existir un canvi en les seves components. El tractament d'aquest esdeveniment consisteix en un increment o decrement si una subcomponent s'avaria o no i posteriorment es notifica dels canvis.
 
 ## Apartat D: 
-Per evitar duplicitat de codi, s'ha realitzat la implementació dels mètodes `setBroken` i `reapair` en la classe abstracta. Aquestes millores estàn en aquest [directori]{src/MachineD}  
+Per evitar duplicitat de codi, s'ha realitzat la implementació dels mètodes `setBroken` i `reapair` en la classe abstracta. Aquestes millores estàn en els següents arxiud de codi font:
+ - [Machien]{src/MachineD/Machine.java} 
+ - [MachineComponent]{src/MachineD/MachineComponent.java}
+ - [MachineComposite]{src/MachineD/MachineComposite.java}
+
