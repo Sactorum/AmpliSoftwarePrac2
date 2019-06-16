@@ -26,5 +26,7 @@ Aquestes millores estàn en els següents arxius de codi font:
  - [MachineComponent](https://github.com/Sactorum/AmpliSoftwarePrac2/blob/master/src/MachineD/MachineComponent.java)
  - [Machine](https://github.com/Sactorum/AmpliSoftwarePrac2/blob/master/src/MachineD/Machine.java)
  - [MachineComposite](https://github.com/Sactorum/AmpliSoftwarePrac2/blob/master/src/MachineD/MachineComponent.java)
+  
+ ## Apartat E: 
  
- 
+ ![diagrama](Diagrama%20Practica%202%20Ampliació%20Software.PNG)
